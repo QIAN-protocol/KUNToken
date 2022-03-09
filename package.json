@@ -1,0 +1,31 @@
+{
+  "name": "KUNToken",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.1.0",
+    "fs-extra": "^9.0.1",
+    "mkdirp": "^1.0.4",
+    "sol-merger": "^3.1.0",
+    "truffle-hdwallet-provider": "^1.0.17"
+  },
+  "devDependencies": {
+    "@openzeppelin/truffle-upgrades": "^1.2.1",
+    "@openzeppelin/upgrades-core": "^1.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "merge": "sol-merger \"./contracts/*.sol\" ./merged \n sol-merger \"./contracts/lib/*.sol\" ./merged"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QIAN-Protocol/KUN-token.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QIAN-Protocol/KUN-token/issues"
+  },
+  "homepage": "https://github.com/QIAN-Protocol/KUN-token#readme"
+}
